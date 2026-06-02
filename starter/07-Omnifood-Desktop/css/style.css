@@ -87,13 +87,14 @@ body {
   border-radius: 9px;
   background-color: #e67e22;
   color: #fff;
-  transition: all 0.3s ease;
+  transition: background-color 0.1s ease;
 }
 
 .btn--full:link,
 .btn--full:visited {
   background-color: #e67e22;
   color: #fff;
+  margin-right: 1.2rem;
 }
 .btn--full:hover,
 .btn--full:active {
@@ -109,9 +110,7 @@ body {
 
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: #e67e22;
-  border: 2px solid #fff;
-  color: #fff;
+  border-color: #cf711f;
 }
 
 .hero-img {
