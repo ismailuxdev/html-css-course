@@ -16,7 +16,7 @@
     
 02 COLOR SYSTEM
      - Primary: #e67e22
-     - tint: #f4f1ec
+     - tint: #fae5d3
      - shade: #d4c8b3
      - accent: #27ae60
      -Grey: #555
@@ -50,10 +50,16 @@ body {
   font-weight: 400;
   color:;
 }
+
+.section-hero {
+  background-color: #fae5d3;
+  padding: 9.6rem 0;
+}
 .hero {
   max-width: 130rem;
   display: grid;
   margin: 0 auto;
+  gap: 9.6rem;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
@@ -71,6 +77,43 @@ body {
   line-height: 1.6;
   margin-bottom: 4.8rem;
 }
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2 rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  background-color: #e67e22;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: transparent;
+  border: 2px solid #e67e22;
+  color: #e67e22;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #e67e22;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
 .hero-img {
   width: 100%;
 }
